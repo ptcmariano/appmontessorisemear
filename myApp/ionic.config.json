@@ -1,6 +1,6 @@
 {
-  "name": "myApp",
-  "app_id": "",
+  "name": "montessorisemear",
+  "app_id": "504d383a",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

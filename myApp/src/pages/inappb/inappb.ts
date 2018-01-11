@@ -12,7 +12,7 @@ export class InappbPage {
   }
 
   ionViewDidLoad() {
-    const browser = this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no');
+   this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no,toolbar=no');
   }
 
 }
