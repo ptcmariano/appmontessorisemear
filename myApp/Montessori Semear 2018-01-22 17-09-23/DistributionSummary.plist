@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Montessori Semear.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>86D40333332C5088558ACFA1D70C021B0A6B8D3A</string>
+				<key>dateExpires</key>
+				<string>22/01/2019</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>P28YXARYPK.br.com.escolamontessorisemear</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>P28YXARYPK</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Montessori Semear.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>fce8fe7f-75b0-4077-8260-fe0af535acfb</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>P28YXARYPK</string>
+				<key>name</key>
+				<string>Glaicon Peixer</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

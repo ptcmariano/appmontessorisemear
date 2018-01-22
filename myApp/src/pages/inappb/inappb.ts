@@ -3,7 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @Component({
-  selector: 'page-inappb',
+  selector: 'nav',
   templateUrl: 'inappb.html',
 })
 export class InappbPage {
@@ -12,7 +12,7 @@ export class InappbPage {
   }
 
   ionViewDidLoad() {
-   this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no,toolbar=no');
+   this.iab.create('http://sistema.escolamontessorisemear.com.br/','_self','location=no,toolbar=no,allowInlineMediaPlayback=yes');
   }
 
 }
